@@ -16,7 +16,6 @@ class Bot(Client):
                 "root": "plugins"
             },
         )
-        self.LOGGER = LOGGER
 
 api_token = "e0decc69310ffbf915d46649b32fdfe6941a0d73"
 
