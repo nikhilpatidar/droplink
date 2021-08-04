@@ -38,4 +38,7 @@ async def kuklink(client,message):
     await message.reply_text(f"```{result}```", reply_to_message_id= message.message_id)
   except Exception as e :
     await message.reply_text(e)
-Bot.run()
+    
+    
+app = Bot()
+app.run()    
