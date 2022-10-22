@@ -12,7 +12,7 @@ app = Client(
     api_hash=Config.API_HASH,
 )
 
-api_token = "bfb40ccd82abead4dede459a04dd50d95e5c845c"
+api_token = Config.API_TOKEN
 
 
 
