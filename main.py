@@ -18,7 +18,7 @@ api_token = Config.API_TOKEN
 
 @app.on_message(filters.private & filters.command(['start']))
 async def start(client,message):
-  await message.reply_text(f"Hello {message .from_user.first_name}\nI am Droplink.co short link genrator.", reply_to_message_id = message.message_id)
+  await message.reply_text(f"Hello {message .from_user.first_name}\nI am Droplink.co short link genrator.\nJoin @ComputerBuddy for updates.", reply_to_message_id = message.message_id)
 
 
 
